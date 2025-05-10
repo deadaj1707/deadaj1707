@@ -11,38 +11,59 @@
 
 ---
 
-┌───────────────────────────────────────────────────────────────┐
-│ user@iitkgp:~$ whoami │
-│ Aditya Jha | B.S. Math & Computing, IIT Kharagpur │
-│ Backend · AI/ML · Quant Research · Blockchain Agents │
-├───────────────────────────────────────────────────────────────┤
-│ user@iitkgp:~$ cat ./skills.txt │
-│ > Python, C++, Java, R, SQL, JS, HTML/CSS │
-│ > FastAPI, Flask, Django, React, TensorFlow, PyTorch │
-│ > AWS, Docker, Jenkins, Grafana, Git, Kafka, MongoDB │
-├───────────────────────────────────────────────────────────────┤
-│ user@iitkgp:~$ tail -n 5 ./experience.log │
-│[2025] Nethermind: AI agents, theorem proving, Kafka │
-│[2024] Piramal: 200% API speedup, AWS, Redis, CI/CD │
-│[2024] WorldQuant: 20+ alphas, Sharpe >1.25 │
-│[2023] MIT: BERT+BiLSTM profession model, 85% precision │
-│[2023] IIIT-H: RL for dynamic pricing, bandits │
-├───────────────────────────────────────────────────────────────┤
-│ user@iitkgp:~$ ls ./projects │
-│ Algorithmic-Trading-Bitcoin/ Credit-Card-Fraud-Detector/ │
-│ Blog-App/ Profession-Classification/ │
-│ ChatApp/ ChatScribe/ │
-│ Social-Media-Analytics/ │
-├───────────────────────────────────────────────────────────────┤
-│ user@iitkgp:~$ ./github-stats.sh │
-│ Commits: ████████████████ 1,200+ │
-│ PRs: ████████ 80+ │
-│ Issues: ███████ 60+ │
-│ Stars: ██████████ 100+ │
-│ Streak: ███████████ 30+ days │
-│ Trophies: 🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆 │
-└───────────────────────────────────────────────────────────────┘
-
+┌─────────────────────────── TERMINAL SESSION ───────────────────────────┐
+│                                                                        │
+│ aditya@iitkgp:~$ whoami                                                │
+│ aditya                                                                 │
+│                                                                        │
+│ aditya@iitkgp:~$ cat about_me.txt                                      │
+│ # Aditya Jha                                                           │
+│ B.S. Math & Computing, IIT Kharagpur                                   │
+│ Backend · AI/ML · Quant Research · Blockchain Agents                   │
+│                                                                        │
+│ aditya@iitkgp:~$ echo $PATH | grep -o "skills/[^:]*"                   │
+│ skills/Python      skills/C++         skills/Java       skills/R       │
+│ skills/SQL         skills/JS          skills/HTML/CSS                  │
+│ skills/FastAPI     skills/Flask       skills/Django     skills/React   │
+│ skills/TensorFlow  skills/PyTorch                                      │
+│ skills/AWS         skills/Docker      skills/Jenkins    skills/Grafana │
+│ skills/Git         skills/Kafka       skills/MongoDB                   │
+│                                                                        │
+│ aditya@iitkgp:~$ tail -n 5 ./experience.log                            │
+│ [2025-01-15] Nethermind | AI agents, theorem proving, Kafka            │
+│ [2024-06-20] Piramal | 200% API speedup, AWS, Redis, CI/CD             │
+│ [2024-03-05] WorldQuant | 20+ alphas, Sharpe >1.25                     │
+│ [2023-08-22] MIT | BERT+BiLSTM profession model, 85% precision         │
+│ [2023-01-10] IIIT-H | RL for dynamic pricing, bandits                  │
+│                                                                        │
+│ aditya@iitkgp:~$ find ./projects -type d -maxdepth 1 | sort            │
+│ ./projects/Algorithmic-Trading-Bitcoin                                 │
+│ ./projects/Blog-App                                                    │
+│ ./projects/ChatApp                                                     │
+│ ./projects/ChatScribe                                                  │
+│ ./projects/Credit-Card-Fraud-Detector                                  │
+│ ./projects/Profession-Classification                                   │
+│ ./projects/Social-Media-Analytics                                      │
+│                                                                        │
+│ aditya@iitkgp:~$ ./github-stats.sh --format=pretty                     │
+│ Fetching stats for user: aditya...                                     │
+│ ╔════════════════════════════════════════════╗                         │
+│ ║ Commits: ████████████████ 1,200+           ║                         │
+│ ║ PRs:     ████████ 80+                      ║                         │
+│ ║ Issues:  ███████ 60+                       ║                         │
+│ ║ Stars:   ██████████ 100+                   ║                         │
+│ ║ Streak:  ███████████ 30+ days              ║                         │
+│ ║ Trophies: 🏆🏆🏆🏆🏆🏆🏆🏆🏆🏆              ║                         │
+│ ╚════════════════════════════════════════════╝                         │
+│                                                                        │
+│ aditya@iitkgp:~$ contact --list                                        │
+│ Email:    [your-email]@example.com                                     │
+│ LinkedIn: linkedin.com/in/[your-username]                              │
+│ GitHub:   github.com/[your-username]                                   │
+│                                                                        │
+│ aditya@iitkgp:~$ █                                                     │
+│                                                                        │
+└────────────────────────────────────────────────────────────────────────┘
 ---
 
 ## 🏆 Highlights & Insights
