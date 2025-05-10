@@ -47,10 +47,7 @@ I love tackling real-world problems and sharing what I learn with the community.
 
 ## 📈 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=deadaj1707&show_icons=true&theme=radical" alt="deadaj1707's GitHub stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deadaj1707&layout=compact&theme=radical" alt="Top Languages" height="165"/>
-</p>
+[![Aditya's GitHub stats](https://github-readme-stats.vercel.app/api?username=deadaj1707)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
